@@ -106,3 +106,10 @@ for (let i = 0; i < filteredResponse.length; i++) {
 // Add our marker clusters and layers to the map.
 myMap.addLayer(markers);
 });
+
+// var app = new Vue({
+//     el:"#app",
+//     data: {
+//       about: "#about",
+//     }
+//   })
