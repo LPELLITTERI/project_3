@@ -49,7 +49,7 @@ ul li a:hover{
 }
 .land-img img{
   width: 100%;
-  height: 70vh;
+  height: 45vh;
  
   object-fit: cover;
 }
@@ -158,6 +158,66 @@ ul li a:hover{
   margin-left: auto;
   margin-right: auto;
 }
+
+.cost {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cost-container{
+  margin: 0 auto;
+}
+
+#tableau-viz{
+  justify-content: center;
+  padding: 25px 25px;
+  margin-top: 50px;
+}
+
+.checkup-image{
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+}
+
+/*TEAM STUFF*/
+.team-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 1fr 1fr);
+  padding: 50px 0px;
+  gap: 30px 0px;
+}
+.team-container > *:nth-child(3n-2):nth-last-of-type(1) {
+  border-color: red;
+  grid-column: span 3;
+}
+.team-container img{
+  width: 200px;
+  height:200px;
+  border-radius: 14px;
+}
+.team-container h4{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+.team-container p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.team-cat{
+  background: #35DBFF;
+}
+.team-last{
+  width: 100%;
+  display: grid;
+  
+}
+/*TEAM STUFF END*/
 
 .footer-title{
   text-align: center;

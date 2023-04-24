@@ -17,6 +17,7 @@
                 <li><a href="./index.html">Problem</a></li>
                   <li><a href="./solution.html">Solution</a></li>
                   <li><a href="./dashboard.html">Dashboard</a></li>
+                  <li><a href="./target.html">Target Area</a></li>
                   <li><a href="./team.html" class="active">The Team</a></li>
                   <li><a href="./contactus.html">Contact Us</a></li>
             </ul>
@@ -34,14 +35,42 @@
             <!-- <h2>Things you could do during the<br><span style="color: orange;">Coronavirus Quarantine.</span></h2> -->
              <div class="card one">
                 <div class="card-img"><h2>HealthCare Avengers</h2></div>
-               <div class="card-text-2">
-                    <h4>&#x2022; Anna Dyar - The Medical Marvel</h4>
-                    <h4>&#x2022; Jacqlyn Cheng - The Healthcare Heroine</h4>
-                    <h4>&#x2022; Janice Mathew - The Cure Crusader</h4>
-                    <h4>&#x2022; Lynn Pellitteri - The Health Hacker</h4>
-                    <h4>&#x2022; Mac Louis - The Doctor Dynamo</h4>
-                    <h4>&#x2022; Matthew Lister - The Healthcare Hulk</h4>
-                    <h4>&#x2022; Savannah Jeter - The Wellness Warrior</h4>
+               <div class="team-container">
+                    <div class="teammates">
+                      <img src="./static/data/sheep.jpg">
+                      <h4>Anna Dyar</h4>
+                      <p>The Medical Marvel</p>
+                    </div>
+                    <div>
+                      <img src="./static/data/rabbit.jpg">
+                      <h4>Jacqlyn Cheng</h4>
+                      <p>The Healthcare Heroine</p>
+                    </div>
+                    <div>
+                      <img class="team-cat" src="./static/data/6400_11_06.jpg">
+                      <h4>Janice Mathew</h4>
+                      <p>The Cure Crusader</p>
+                    </div>
+                    <div>
+                      <img src="./static/data/shiba.jpg">
+                      <h4>Lynn Pellitteri</h4>
+                      <p>The Health Hacker</p>
+                    </div>
+                    <div>
+                      <img src="./static/data/pig.jpg">
+                      <h4>Mac Louis</h4>
+                      <p>The Doctor Dynamo</p>
+                    </div>
+                    <div>
+                      <img src="./static/data/cow.jpg">
+                      <h4>Matthew Lister</h4>
+                      <p>The Healthcare Hulk</p>
+                    </div>
+                    <div>
+                      <img src="./static/data/giraffe.jpg">
+                      <h4 class="team-last">Savannah Jeter</h4>
+                      <p>The Wellness Warrior</p>
+                    </div>
                     
                     
                     
@@ -57,17 +86,32 @@
           <section id="advert">
             
           </section>
-          <div id="map"></div>
+        
         </main>
         <footer>
-          <h1 class="footer-title">PopUpHealthCare.</h1>
-          <h3 class="footer-title">PopUpHealthCare.</h2>
-          
+          <h2 class="footer-title">PopUpHealthCare.</h2>
+          <h4 class="footer-title">References & Resources.</h4>
+          <h6 class="footer-title">Dataset: https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Place-Data-GIS-Friendly-Format-2022-release/vgc8-iyc4
+          </h6>
+          <h6 class="footer-title">Dataset: https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb
+          </h6>
+          <h4 class="footer-title">Cited.</h4>
+          <h6 class="footer-title">Centers for Disease Control and Prevention. (2023, March 23). Health and economic costs of chronic diseases. Centers for Disease Control and Prevention. Retrieved April 15, 2023, from https://www.cdc.gov/chronicdisease/about/costs/index.htm 
+          </h6>
+          <h6 class="footer-title">
+          Pop-Up Clinics: A Starting Point for Good Primary Care. (2019, August 12). Eden Health. https://www.edenhealth.com/blog/pop-up-clinics/
+          </h6>
+          <h6 class="footer-title">
+              America’s Health Rankings | AHR. (n.d.). America’s Health Rankings. Retrieved April 15, 2023, from https://www.americashealthrankings.org/explore/annual/measure/preventive_clinical/state/FL
+              </h6>
+          <h6 class="footer-title">
+              Attipoe-Dorcoo, S., Delgado, R., Lai, D., Gupta, A., & Linder, S. (2020). Analysis of annual costs of mobile clinics in the Southern United States. Journal of primary care & community health. Retrieved April 22, 2023, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7758644/ 
+              </h6>
         </footer>
         </div>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-        <script>
+        <!-- <script>
           let tl = gsap.timeline({
             scrollTrigger: {
             trigger: ".about-text,.card",
@@ -80,14 +124,12 @@
            // gsap.from(".land-text",{opacity: 0, duration: 1, y:-50, stagger: 0.6});
           
          
-        </script>
+        </script> -->
         
-        </main>
-        <footer>
-            <h2 class="footer-title">PopUpHealthCare.</h2>
+        
         
             
-          </footer>
+        
     </div>
 </body>
 </html>
