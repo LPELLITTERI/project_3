@@ -1,11 +1,242 @@
+/*Healthcare Template*/
+
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  height: 110px;
+  position: fixed;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 15px 10px rgba(0,0,0,.10);
+  border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+ul li a{
+  color: #000;
+  font-weight: bold;
+  transition: .3s;
+}
+ul li a:hover{
+  color: orange;
+}
+.active{
+  color: orange;
+}
+#landing{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.land-img img{
+  width: 100%;
+  height: 45vh;
+ 
+  object-fit: cover;
+}
+.land-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.land-text h2{
+  font-size: 30px;
+}
+.land-text p{
+  margin-top: 15px;
+  opacity: .5;
+  font-size: 18px;
+}
+.land-text a{
+  margin-top: 10px;
+  background: #0082e6;
+  padding: 11px 22px;
+  border-radius: 20px;
+  color: #fff;
+}
+#about,#advice{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
+}
+#about h2{
+  font-size: 25px;
+  word-spacing: 3px;
+}
+#about p{
+  font-size: 20px;
+  opacity: .7;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+#about p span{
+  font-size: 25px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: orange;
+}
+#advice h2{
+  word-spacing: 3px;
+  font-size: 25px;
+}
+#advice .card{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px auto;
+  height: 100%;
+  background: #fff;
+  box-shadow: 5px 1px 15px #ddd;
+ 
+}
+.card .card-img{
+  height: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.one .card-img{
+  background: #FDCA40;
+}
+.two .card-img{
+  background: #4EA5D9;
+}
+.three .card-img{
+  background: #FDCA40;
+}
+.card-text{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-indent: -1em;
+  font-size: 16px;
+}
+.card-text p{
+  opacity: .7;
+}
+.card-text-2{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+.card-text p{
+  opacity: .7;
+}
+
+
+.donate {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cost {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cost-container{
+  margin: 0 auto;
+}
+
+#tableau-viz{
+  justify-content: center;
+  padding: 25px 25px;
+  margin-top: 50px;
+}
+
+.checkup-image{
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+}
+
+.tableauPlaceholder{
+  width:100% !important;
+}
+
+/*TEAM STUFF*/
+.team-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 1fr 1fr);
+  padding: 50px 0px;
+  gap: 30px 0px;
+}
+.team-container > *:nth-child(3n-2):nth-last-of-type(1) {
+  border-color: red;
+  grid-column: span 3;
+}
+.team-container img{
+  width: 200px;
+  height:200px;
+  border-radius: 14px;
+}
+.team-container h4{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+.team-container p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.team-cat{
+  background: #35DBFF;
+}
+.team-last{
+  width: 100%;
+  display: grid;
+  
+}
+/*TEAM STUFF END*/
+
+.footer-title{
+  text-align: center;
+}
+
+/*Healthcare Template End*/
 body {
   padding: 0;
   margin: 0;
 }
 
 #map {
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 50%;
+  margin: auto;
 }
 body,
 html {

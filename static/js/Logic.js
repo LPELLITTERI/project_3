@@ -68,7 +68,7 @@ for (let i = 0; i < filteredResponse.length; i++) {
             + '<br>_____________________________________________'
             + '<br> Total Population: ' + filteredResponse[i].totalpopulation 
             + '<br>'
-            + '<br>' + filteredResponse[i].access2_adjprev + '%' + addDeltaTriangle(filteredResponse[i].access2_adjprev, nationalAvg.access2_adjprev) + '%' + ' Lack of Health Issurance Rate'
+            + '<br>' + filteredResponse[i].access2_adjprev + '%' + addDeltaTriangle(filteredResponse[i].access2_adjprev, nationalAvg.access2_adjprev) + '%' + ' Lack of Health Issurance Rate (RED = Good)'
             + '<br>'
             + '<br> Preventative Care Rates: (RED = Bad)'
             + '<br>' + filteredResponse[i].checkup_adjprev + '%' + addDeltaTriangle(filteredResponse[i].checkup_adjprev, nationalAvg.checkup_adjprev) + '%' + ' Rate of Routine Checkups'
@@ -106,3 +106,10 @@ for (let i = 0; i < filteredResponse.length; i++) {
 // Add our marker clusters and layers to the map.
 myMap.addLayer(markers);
 });
+
+// var app = new Vue({
+//     el:"#app",
+//     data: {
+//       about: "#about",
+//     }
+//   })
