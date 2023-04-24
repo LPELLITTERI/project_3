@@ -140,6 +140,24 @@ ul li a:hover{
 .card-text p{
   opacity: .7;
 }
+.card-text-2{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+.card-text p{
+  opacity: .7;
+}
+
+
+.donate {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .footer-title{
   text-align: center;
