@@ -182,6 +182,10 @@ ul li a:hover{
   border: 1px solid gray;
 }
 
+.tableauPlaceholder{
+  width:100% !important;
+}
+
 /*TEAM STUFF*/
 .team-container{
   display: grid;
