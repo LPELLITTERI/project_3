@@ -108,13 +108,16 @@ ul li a:hover{
   flex-direction: column;
   width: 80%;
   margin: 10px auto;
-  height: 350px;
+  height: 100%;
   background: #fff;
   box-shadow: 5px 1px 15px #ddd;
  
 }
 .card .card-img{
-  height: 35%;
+  height: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 .one .card-img{
   background: #FDCA40;
@@ -126,10 +129,12 @@ ul li a:hover{
   background: #FDCA40;
 }
 .card-text{
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   margin-top: 30px;
-  text-align: center;
+  margin-bottom: 30px;
+  text-align: left;
+  text-indent: -1em;
   font-size: 16px;
 }
 .card-text p{
