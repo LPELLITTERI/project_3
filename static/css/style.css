@@ -223,6 +223,10 @@ ul li a:hover{
 }
 /*TEAM STUFF END*/
 
+footer{
+  padding: 25px 0px;
+}
+
 .footer-title{
   text-align: center;
 }
